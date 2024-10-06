@@ -1,0 +1,30 @@
+.properties-container {
+  gap: 2rem;
+}
+
+.properties-container .search-bar {
+  width: clamp(12rem, 28rem, 100%); /* Fixed typo */
+  border-radius: 30px;
+  border: 1px solid rgba(120, 120, 120, 0.374);
+  display: flex; /* Ensure flexbox is applied */
+  align-items: center; /* Center items vertically */
+  padding: 0.5rem; /* Add padding for better spacing */
+}
+
+.properties-container .search-bar .button {
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 10px 15px;
+  border: none; /* Remove border */
+  background-color: var(--blue); /* Set background color */
+  color: white; /* Set text color */
+  cursor: pointer; /* Change cursor on hover */
+  margin-left: 0.5rem; /* Add some space between input and button */
+}
+
+.properties-container .search-bar input {
+  width: 70%;
+  border: none; /* Remove border */
+  padding: 0.5rem; /* Fixed typo */
+  margin-right: 0.5rem; /* Add space between input and button */
+}
