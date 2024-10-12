@@ -4,6 +4,7 @@ import { MdCall } from "react-icons/md";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import { HiChatBubbleBottomCenter } from "react-icons/hi2";
 const Contact = () => {
+  //also this page needs some changing at the end i will do
   return (
     <div id="contact-us" className="c-wrapper">
       <div className="paddings innerWidth flexCenter c-container">
@@ -13,7 +14,7 @@ const Contact = () => {
           <span className="primaryText">Easy to contact us</span>
           <span className="secondaryText">
             We always ready to help by providijng the best services for you. We
-            beleive a good blace to live can make your life better{" "}
+            beleive a good place to live can make your life better{" "}
           </span>
 
           <div className="flexColStart contactModes">
@@ -26,7 +27,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+93 790 875 055</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Call now</div>
@@ -39,7 +40,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Chat</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+93 790 875 055</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Chat now</div>
@@ -55,7 +56,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Video Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+93 790 875 055</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Video Call now</div>

@@ -42,10 +42,11 @@ const Favorites = () => {
         <div className="paddings flexCenter properties">
           {
             //for each card along to thier property number return a card that whould be propertycard and the data is card and key for while throw a map arraying
-            //and now i add new dependency lodash for many function that pail in js
+            //and now i add new dependency lodash for many function that paiload in js
             // data.map((card, i) => (
             //   <PropertyCard card={card} key={i} />
             // ))
+            //favourites and booking also properties they have the same code structure with any few differents
             data
               .filter((property) => favourites.includes(property.id))
               .filter(

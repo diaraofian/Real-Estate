@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 const Footer = () => {
+  //in this page im going to change any thing for dynamicing page that 's takes some times
   return (
     <div className="f-wrapper">
       <div className="paddings innerWidth flexCenter f-container">
