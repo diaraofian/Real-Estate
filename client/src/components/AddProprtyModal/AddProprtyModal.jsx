@@ -3,7 +3,7 @@ import { Container, Modal, Stepper } from "@mantine/core";
 import AddLocation from "../AddLocation/AddLocation";
 
 import { useAuth0 } from "@auth0/auth0-react";
-import UploadImg from "../upLoadImg/upLoadImg";
+import UploadImg from "../uploadImg/uploadImg";
 import BasicDetails from "../BasicDetails/BasicDetails";
 import Facilities from "../Facilities/Facilities";
 
