@@ -2,9 +2,10 @@ import axios from "axios";
 import dayjs from "dayjs";
 import { toast } from "react-toastify";
 
-//import here the base url of our server
+// Import the base URL of our server from Vite's environment variables
+const serverURL = import.meta.env.VITE_SERVER_URL;
 export const api = axios.create({
-  baseURL: "http://localhost:8000/api",
+  baseURL: serverURL,
 });
 
 //this fun will get all property
