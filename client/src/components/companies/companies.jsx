@@ -1,5 +1,5 @@
 import React from "react";
-import "./Companies.css";
+import "./companies.css";
 const Companies = () => {
   return (
     <section className="c-wrapper">

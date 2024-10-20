@@ -1,11 +1,11 @@
 import React from "react";
-import Companies from "../components/Companies/Companies";
-import Contact from "../components/Contact/Contact";
-import GetStarted from "../components/GetStarted/GetStarted";
+import Companies from "../components/companies/companies";
+import Contact from "../components/contact/contact";
+import GetStarted from "../components/getStarted/getStarted";
 
-import Hero from "../components/Hero/Hero";
-import Residencies from "../components/Residencies/Residencies";
-import Value from "../components/Value/Value";
+import Hero from "../components/hero/hero";
+import Residencies from "../components/residencies/residencies";
+import Value from "../components/value/value";
 
 const Website = () => {
   return (
