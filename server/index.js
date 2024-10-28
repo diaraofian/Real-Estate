@@ -14,7 +14,15 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(cookieParser());
 
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173", // or whatever port my frontend runs on locally
+      "https://real-estate-smoky-seven.vercel.app", // my production URL
+    ],
+    credentials: true, // if you need to send cookies or authorization headers
+  })
+);
 
 //route difinition
 app.use("/api/user", userRoute);
