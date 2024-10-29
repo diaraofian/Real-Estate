@@ -16,11 +16,6 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(cookieParser());
 
-// Database connection
-const client = new Client({
-  connectionString: process.env.DATABASE_URL, // Use your connection string
-});
-
 app.use(cors());
 
 //route difinition
