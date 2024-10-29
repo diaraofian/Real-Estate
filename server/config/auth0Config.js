@@ -2,9 +2,9 @@ import { auth } from "express-oauth2-jwt-bearer";
 
 const jwtCheck = auth({
   //as mainjsx auduence must be same url
-  audience: "https://real-estate-h3vk.onrender.com" || "http://localhost:8000",
+  audience: process.env.AUTH0_AUDIENCE || "http://localhost:8000",
   //here i use my domain from main
-  issuerBaseURL: "https://dev-plmbu63trvbzf5av.us.auth0.com/",
+  issuerBaseURL: process.env.AUTH0_ISSUER,
   tokenSigningAlg: "RS256", //as default
 });
 
