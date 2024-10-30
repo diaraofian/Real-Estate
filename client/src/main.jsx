@@ -10,8 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       domain="dev-plmbu63trvbzf5av.us.auth0.com"
       clientId="bZ8kMMsVEiM3bzg2HAMb7X2HOHWAX42U"
       authorizationParams={{
-        redirect_uri:
-          "https://real-estate-241nkl00e-dianas-projects-e7d90d14.vercel.app",
+        redirect_uri: "https://real-estate-nine-green.vercel.app/",
       }}
       //first one for client side , and port is from server side
       audience="http://localhost:8000"
